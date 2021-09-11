@@ -18,7 +18,40 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Garlicoin-Qt (on Mac) or
-litecoind/garlicoin-qt (on Linux).
+This release is based upon Bitcoin Core v0.10.2.  Their upstream changelog applies to us and
+is included in as separate release-notes.  This section describes the Garlicoin-specific differences.
+
+Protocol:
+- Scrypt Proof-of-Work instead of sha256d, however block hashes are sha256d for performance reasons.
+- Garlicoin TCP port 9333 (instead of 8333)
+- RPC TCP port 9332 (instead of 8332)
+- Testnet TCP port 19333 (instead of 18333)
+- Testnet RPC TCP port 19332 (instead of 18332)
+- 84 million coin limit  (instead of 21 million)
+- Magic 0xfbc0b6db       (instead of 0xf9beb4d9)
+- Target Block Time 2.5 minutes (instead of 10 minutes)
+- Target Timespan 3.5 days      (instead of two weeks)
+- bnProofOfWorkLimit = >> 20    (instead of >> 32)
+- See 9a980612005adffdeb2a17ca7a09fe126dd45e0e for Genesis Parameters
+- zeitgeist2 protection: b1b31d15cc720a1c186431b21ecc9d1a9062bcb6 Slightly different way to calculate difficulty changes.
+- Garlicoin Core v0.10.2.2 is protocol version 70003 (instead of 70002)
+
+Relay:
+- Garlicoin Core rounds transaction size up to the nearest 1000 bytes before calculating fees.  This size rounding behavior is to mimic fee calculation of Garlicoin v0.6 and v0.8.
+- Bitcoin's IsDust() is disabled in favor of Garlicoin's fee-based dust penalty.
+- Fee-based Dust Penalty: For each transaction output smaller than DUST_THRESHOLD (currently 0.001 GRLC) the default relay/mining policy will expect an additional 1000 bytes of fee.  Otherwise the transaction will be rejected from relay/mining.  Such transactions are also disqualified from the free/high-priority transaction rule.
+- Miners and relays can adjust the expected fee per-KB with the -minrelaytxfee parameter.
+
+Wallet:
+- Coins smaller than 0.00001 GRLC are by default ignored by the wallet.  Use the -mininput parameter if you want to see smaller coins.
+
+Notable changes since Garlicoin v0.8
+===================================
+
+- The Block data and indexes of v0.10 are incompatible with v0.8 clients.  You can upgrade from v0.8 but you downgrading is not possible.  For this reason you may want to make a backup copy of your Data Directory.
+- garlicoind no longer sends RPC commands.  You must use the separate garlicoin-cli command line utility.
+=======
+garlicoind/garlicoin-qt (on Linux).
 
 Downgrade warning
 ------------------
@@ -67,17 +100,18 @@ Protocol:
 Relay:
 - Garlicoin Core rounds transaction size up to the nearest 1000 bytes before calculating fees.  This size rounding behavior is to mimic fee calculation of Garlicoin v0.6 and v0.8.
 - Bitcoin's IsDust() is disabled in favor of Garlicoin's fee-based dust penalty.
-- Fee-based Dust Penalty: For each transaction output smaller than DUST_THRESHOLD (currently 0.001 LTC) the default relay/mining policy will expect an additional 1000 bytes of fee.  Otherwise the transaction will be rejected from relay/mining.  Such transactions are also disqualified from the free/high-priority transaction rule.
+- Fee-based Dust Penalty: For each transaction output smaller than DUST_THRESHOLD (currently 0.001 GRLC) the default relay/mining policy will expect an additional 1000 bytes of fee.  Otherwise the transaction will be rejected from relay/mining.  Such transactions are also disqualified from the free/high-priority transaction rule.
 - Miners and relays can adjust the expected fee per-KB with the -minrelaytxfee parameter.
 
 Wallet:
-- Coins smaller than 0.00001 LTC are by default ignored by the wallet.  Use the -mininput parameter if you want to see smaller coins.
+- Coins smaller than 0.00001 GRLC are by default ignored by the wallet.  Use the -mininput parameter if you want to see smaller coins.
 
 Notable changes since Garlicoin v0.8
 ===================================
 
 - The Block data and indexes of v0.10 are incompatible with v0.8 clients.  You can upgrade from v0.8 but you downgrading is not possible.  For this reason you may want to make a backup copy of your Data Directory.
-- litecoind no longer sends RPC commands.  You must use the separate garlicoin-cli command line utility.
+- garlicoind no longer sends RPC commands.  You must use the separate garlicoin-cli command line utility.
+
 - Watch-Only addresses are now possible.
 
 Credits

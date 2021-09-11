@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Faîtes un clique droit afin de modifier l'adresse ou l'étiquette</translation>
+        <translation>Clic-droit pour modifier l'adresse ou l'étiquette</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -30,6 +30,10 @@
         <translation>Supprimer l'adresse sélectionnée de la liste</translation>
     </message>
     <message>
+        <source>Enter address or label to search</source>
+        <translation>Entrez une adresse ou une étiquette à rechercher</translation>
+    </message>
+    <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Exporter les données de l'onglet courant vers un fichier</translation>
     </message>
@@ -43,11 +47,13 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Choisissez une adresse où envoyer les litecoins</translation>
+        <translation>Choisissez une adresse où envoyer les garlicoins</translation>
+
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Choisissez une adresse où recevoir les litecoins</translation>
+        <translation>Choisissez une adresse où recevoir les garlicoins</translation>
+
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -172,8 +178,9 @@
         <translation>Confirmer le chiffrement du porte-monnaie</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Attention : Si vous chiffrez votre portefeuille et que vous perdez votre mot de passe vous &lt;b&gt; PERDREZ TOUS VOS LITECOINS&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GARLICOINS&lt;/b&gt;!</source>
+        <translation>Attention : Si vous chiffrez votre portefeuille et que vous perdez votre mot de passe vous &lt;b&gt; PERDREZ TOUS VOS GARLICOINS&lt;/b&gt; !</translation>
+
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,8 +191,9 @@
         <translation>Portefeuille chiffré</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 va à présent se fermer pour terminer la procédure de cryptage. N'oubliez pas que le chiffrement de votre porte-monnaie ne peut pas fournir une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your garlicoins from being stolen by malware infecting your computer.</source>
+        <translation>Le porte-monnaie a été chiffré. N'oubliez pas que le chiffrement de votre porte-monnaie ne peut pas entièrement protéger vos garlicoins contre le vol par un logiciel malveillant qui infecterait votre ordinateur.</translation>
+
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -250,10 +258,6 @@
         <translation>&amp;Vue d'ensemble</translation>
     </message>
     <message>
-        <source>Node</source>
-        <translation>Nœud</translation>
-    </message>
-    <message>
         <source>Show general overview of wallet</source>
         <translation>Affiche une vue d'ensemble du porte-monnaie</translation>
     </message>
@@ -310,16 +314,12 @@
         <translation>&amp;Modifier le mot de passe</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Adresses d'envoi</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Adresses de réception</translation>
-    </message>
-    <message>
         <source>Open &amp;URI...</source>
         <translation>Ouvrir &amp;URI</translation>
+    </message>
+    <message>
+        <source>Wallet:</source>
+        <translation>Portefeuille :</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
@@ -342,6 +342,11 @@
         <translation>Réindexer les blocs sur le disque...</translation>
     </message>
     <message>
+        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
+        <translation>Le proxy est &lt;b&gt;activé&lt;/b&gt; : %1</translation>
+    </message>
+    <message>
+
         <source>Send coins to a Garlicoin address</source>
         <translation>Envoyer des pièces à une adresse Garlicoin</translation>
     </message>
@@ -368,10 +373,7 @@
     <message>
         <source>Garlicoin</source>
         <translation>Garlicoin</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Portefeuille</translation>
+
     </message>
     <message>
         <source>&amp;Send</source>
@@ -478,8 +480,49 @@
         <translation>À jour</translation>
     </message>
     <message>
+        <source>&amp;Sending addresses</source>
+        <translation>&amp;Adresses d'envoi</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses</source>
+        <translation>&amp;Adresses de réception</translation>
+    </message>
+    <message>
+        <source>Open Wallet</source>
+        <translation>Portefeuille ouvert</translation>
+    </message>
+    <message>
+        <source>Open a wallet</source>
+        <translation>Ouvrir un portefeuille</translation>
+    </message>
+    <message>
+        <source>Close Wallet...</source>
+        <translation>Fermer portefeuille...</translation>
+    </message>
+    <message>
+        <source>Close wallet</source>
+        <translation>Fermer portefeuille</translation>
+    </message>
+    <message>
         <source>Show the %1 help message to get a list with possible Garlicoin command-line options</source>
         <translation>Afficher le %1 message d'aide pour récupérer une liste des options de ligne de commande Garlicoin</translation>
+    </message>
+    <message>
+        <source>default wallet</source>
+        <translation>portefeuille par défaut</translation>
+    </message>
+    <message>
+        <source>Opening Wallet &lt;b&gt;%1&lt;/b&gt;...</source>
+        <translation>Ouverture portefeuille &lt;b&gt;%1&lt;/b&gt;...</translation>
+    </message>
+    <message>
+        <source>Open Wallet Failed</source>
+        <translation>Le déverrouillage du porte-monnaie a échoué</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Fenêtre</translation>
+
     </message>
     <message>
         <source>%1 client</source>
@@ -503,6 +546,12 @@
         <source>Amount: %1
 </source>
         <translation>Montant:%1
+</translation>
+    </message>
+    <message>
+        <source>Wallet: %1
+</source>
+        <translation>Portefeuille : %1
 </translation>
     </message>
     <message>
@@ -716,6 +765,7 @@
     <message>
         <source>The label associated with this address list entry</source>
         <translation>L'étiquette associée à cette entrée du carnet d'adresses</translation>
+
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
@@ -724,10 +774,6 @@
     <message>
         <source>&amp;Address</source>
         <translation>&amp;Adresse</translation>
-    </message>
-    <message>
-        <source>New receiving address</source>
-        <translation>Nouvelle adresse de réception</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -744,10 +790,7 @@
     <message>
         <source>The entered address "%1" is not a valid Garlicoin address.</source>
         <translation>L'adresse entrée "%1" n'est pas une adresse Garlicoin valide.</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>L'adresse fournie « %1 » est déjà présente dans le carnet d'adresses.</translation>
+
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -799,31 +842,8 @@
         <source>Command-line options</source>
         <translation>Options de ligne de commande</translation>
     </message>
-    <message>
-        <source>Usage:</source>
-        <translation>Utilisation :</translation>
-    </message>
-    <message>
-        <source>command-line options</source>
-        <translation>Options de ligne de commande</translation>
-    </message>
-    <message>
-        <source>UI Options:</source>
-        <translation>Options interface graphique:</translation>
-    </message>
-    <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Définir la langue, par exemple "de_DE" (défaut: locale système)</translation>
-    </message>
-    <message>
-        <source>Start minimized</source>
-        <translation>Démarrer sous forme minimisée</translation>
-    </message>
-    <message>
-        <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Définir les certificats SSL racines pour les requêtes de paiement (défaut:-système-)</translation>
-    </message>
-    </context>
+</context>
+
 <context>
     <name>Intro</name>
     <message>
@@ -845,6 +865,19 @@
     <message>
         <source>Garlicoin</source>
         <translation>Garlicoin</translation>
+    </message>
+    <message>
+        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>Environ %1 GB de données seront stockées dans ce répertoire, et cela augmentera au cours du temps.</translation>
+    </message>
+    <message>
+        <source>Approximately %1 GB of data will be stored in this directory.</source>
+        <translation>Environ %1 GB de données seront stockées dans ce répertoire.</translation>
+    </message>
+    <message>
+        <source>The wallet will also be stored in this directory.</source>
+        <translation>Le porte-monnaie sera aussi stocké dans ce répertoire.</translation>
+
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -902,10 +935,6 @@
     <message>
         <source>Size of &amp;database cache</source>
         <translation>Taille du cache de la base de données.</translation>
-    </message>
-    <message>
-        <source>MB</source>
-        <translation>MO</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -1502,6 +1531,10 @@
         <source>Message</source>
         <translation>Message</translation>
     </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Portefeuille</translation>
+    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -1657,16 +1690,12 @@
         <translation>Êtes-vous sûr de vouloir envoyer ?</translation>
     </message>
     <message>
-        <source>added as transaction fee</source>
-        <translation>Ajoute en tant que frais de transaction</translation>
-    </message>
-    <message>
-        <source>Total Amount %1</source>
-        <translation>Montant Total %1</translation>
-    </message>
-    <message>
         <source>or</source>
         <translation>ou</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Frais de transaction</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -1689,10 +1718,7 @@
         <translation>Demande de paiement expirée.</translation>
     </message>
     <message>
-        <source>Pay only the required fee of %1</source>
-        <translation>Payer seulement les frais obligatoire de %1</translation>
-    </message>
-    <message>
+
         <source>Warning: Invalid Garlicoin address</source>
         <translation>Attention: Adresse Garlicoin Invalide</translation>
     </message>
@@ -1878,10 +1904,6 @@
         <translation>État</translation>
     </message>
     <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, n'a pas encore été diffusée avec succès</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Date</translation>
     </message>
@@ -2012,10 +2034,6 @@
         <translation>Ouvert jusqu'à %1</translation>
     </message>
     <message>
-        <source>Offline</source>
-        <translation>Hors ligne</translation>
-    </message>
-    <message>
         <source>Unconfirmed</source>
         <translation>Non Confirmé</translation>
     </message>
@@ -2026,10 +2044,6 @@
     <message>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Confirmée (%1 confirmations)</translation>
-    </message>
-    <message>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ce bloc n'a été reçu par aucun autre nœud et ne sera probablement pas accepté !</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -2215,6 +2229,13 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
+    <name>WalletController</name>
+    <message>
+        <source>Close wallet</source>
+        <translation>Fermer portefeuille</translation>
+    </message>
+    </context>
+<context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
@@ -2227,7 +2248,11 @@
         <source>Send Coins</source>
         <translation>Envoyer des pièces</translation>
     </message>
-    </context>
+    <message>
+        <source>default wallet</source>
+        <translation>portefeuille par défaut</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
     <message>
@@ -2258,48 +2283,13 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Options:</source>
-        <translation>Options :</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Spécifier le répertoire de données</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Spécifier votre adresse publique </translation>
-    </message>
-    <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Accepter les commandes de JSON-RPC et de la ligne de commande</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Fonctionner en arrière-plan en tant que démon et accepter les commandes</translation>
-    </message>
-    <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
         <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
     </message>
     <message>
         <source>Garlicoin Core</source>
         <translation>Garlicoin Core</translation>
-    </message>
-    <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; peut être:</translation>
-    </message>
-    <message>
-        <source>Block creation options:</source>
-        <translation>Options de création de bloc:</translation>
-    </message>
-    <message>
-        <source>Connection options:</source>
-        <translation>Options de connexion:</translation>
-    </message>
-    <message>
-        <source>Debugging/Testing options:</source>
-        <translation>Options de débogage/test </translation>
+
     </message>
     <message>
         <source>Importing...</source>
@@ -2307,20 +2297,12 @@
 Importation ...</translation>
     </message>
     <message>
+        <source>Upgrading UTXO database</source>
+        <translation>Mise à jour de la base de données des UTXO</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
         <translation>Vérifications des blocs...</translation>
-    </message>
-    <message>
-        <source>Wallet options:</source>
-        <translation>Options du portefeuille:</translation>
-    </message>
-    <message>
-        <source>(default: %u)</source>
-        <translation>(défaut: %u)</translation>
-    </message>
-    <message>
-        <source>Connect through SOCKS5 proxy</source>
-        <translation>Connecté au travers du proxy SOCKS5</translation>
     </message>
     <message>
         <source>Information</source>
@@ -2329,22 +2311,11 @@ Importation ...</translation>
     <message>
         <source>Invalid -onion address or hostname: '%s'</source>
         <translation>Adresse ou nom d'hôte -onion invalide: '%s'</translation>
+
     </message>
     <message>
         <source>Invalid -proxy address or hostname: '%s'</source>
         <translation>Adresse -proxy invalide: '%s'</translation>
-    </message>
-    <message>
-        <source>Node relay options:</source>
-        <translation>Options du relais de nœud: </translation>
-    </message>
-    <message>
-        <source>RPC server options:</source>
-        <translation>Options de serveur RPC:</translation>
-    </message>
-    <message>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Envoyer les informations de débogage/trace à la console au lieu du fichier debug.log</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -2367,24 +2338,12 @@ Importation ...</translation>
         <translation>Transaction trop grande</translation>
     </message>
     <message>
-        <source>Username for JSON-RPC connections</source>
-        <translation>Nom d'utilisateur pour les connexions JSON-RPC</translation>
+        <source>Unable to generate initial keys</source>
+        <translation>Impossible de générer la clé initiale</translation>
     </message>
     <message>
         <source>Warning</source>
         <translation>Attention</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Mot de passe pour les connexions JSON-RPC</translation>
-    </message>
-    <message>
-        <source>(default: %s)</source>
-        <translation>(défaut: %s)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: %s)</source>
-        <translation>Spécifier le pid du fichier (défaut: %s)</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

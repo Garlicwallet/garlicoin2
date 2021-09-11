@@ -1,13 +1,17 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
+export LC_ALL=C
 TOPDIR=${TOPDIR:-$(git rev-parse --show-toplevel)}
-SRCDIR=${SRCDIR:-$TOPDIR/src}
+BUILDDIR=${BUILDDIR:-$TOPDIR}
+
+BINDIR=${BINDIR:-$BUILDDIR/src}
 MANDIR=${MANDIR:-$TOPDIR/doc/man}
 
-BITCOIND=${BITCOIND:-$SRCDIR/garlicoind}
-BITCOINCLI=${BITCOINCLI:-$SRCDIR/garlicoin-cli}
-BITCOINTX=${BITCOINTX:-$SRCDIR/garlicoin-tx}
-BITCOINQT=${BITCOINQT:-$SRCDIR/qt/garlicoin-qt}
+BITCOIND=${BITCOIND:-$BINDIR/garlicoind}
+BITCOINCLI=${BITCOINCLI:-$BINDIR/garlicoin-cli}
+BITCOINTX=${BITCOINTX:-$BINDIR/garlicoin-tx}
+WALLET_TOOL=${WALLET_TOOL:-$BINDIR/garlicoin-wallet}
+BITCOINQT=${BITCOINQT:-$BINDIR/qt/garlicoin-qt}
 
 [ ! -x $BITCOIND ] && echo "$GARLICOIND not found or not executable." && exit 1
 
@@ -20,7 +24,7 @@ BTCVER=($($GARLICOINCLI --version | head -n1 | awk -F'[ -]' '{ print $6, $7 }'))
 echo "[COPYRIGHT]" > footer.h2m
 $LITECOIND --version | sed -n '1!p' >> footer.h2m
 
-for cmd in $LITECOIND $LITECOINCLI $LITECOINTX $LITECOINQT; do
+for cmd in $BITCOIND $BITCOINCLI $BITCOINTX $WALLET_TOOL $BITCOINQT; do
   cmdname="${cmd##*/}"
   help2man -N --version-string=${LTCVER[0]} --include=footer.h2m -o ${MANDIR}/${cmdname}.1 ${cmd}
   sed -i "s/\\\-${LTCVER[1]}//g" ${MANDIR}/${cmdname}.1

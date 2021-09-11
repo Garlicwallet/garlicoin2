@@ -2,10 +2,13 @@ Benchmarking
 ============
 
 Garlicoin Core has an internal benchmarking framework, with benchmarks
-for cryptographic algorithms such as SHA1, SHA256, SHA512 and RIPEMD160. As well as the rolling bloom filter.
+for cryptographic algorithms (e.g. SHA1, SHA256, SHA512, RIPEMD160), as well as the rolling bloom filter.
 
-After compiling garlicoin-core, the benchmarks can be run with:
-`src/bench/bench_garlicoin`
+Running
+---------------------
+After compiling Garlicoin-core, the benchmarks can be run with:
+
+    src/bench/bench_Garlicoin
 
 The output will look similar to:
 ```
@@ -40,7 +43,7 @@ Help
 ---------------------
 `-?` will print a list of options and exit:
 
-    src/bench/bench_Litecoin -?
+    src/bench/bench_Garlicoin -?
 
 Notes
 ---------------------

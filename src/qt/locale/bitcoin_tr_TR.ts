@@ -30,6 +30,10 @@
         <translation>Seçili adresi listeden sil</translation>
     </message>
     <message>
+        <source>Enter address or label to search</source>
+        <translation>Aramak için adres veya etiket girin</translation>
+    </message>
+    <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Seçili sekmedeki veriyi dosya olarak dışa aktar</translation>
     </message>
@@ -132,6 +136,10 @@
         <translation>Yeni parolayı tekrarla</translation>
     </message>
     <message>
+        <source>Show password</source>
+        <translation>Şifreyi göster</translation>
+    </message>
+    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Yeni parolayı cüzdana girin.&lt;br/&gt;Lütfen &lt;b&gt;on yada daha fazla karakter&lt;/b&gt; veya &lt;b&gt;sekiz yada daha fazla kelime&lt;/b&gt;içeren bir parola kullanın. </translation>
     </message>
@@ -168,8 +176,9 @@
         <translation>Cüzdan Şifrelemesini Onaylayın</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Uyarı: Eğer cüzdanınızı şifreleyip parolanızı kaybederseniz (unutursanız) , &lt;b&gt;BÜTÜN LITECOIN'LERINIZI KAYBEDECEKSINIZ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GARLICOINS&lt;/b&gt;!</source>
+        <translation>Uyarı: Eğer cüzdanınızı şifreleyip parolanızı kaybederseniz (unutursanız) , &lt;b&gt;BÜTÜN GARLICOIN'LERINIZI KAYBEDECEKSINIZ&lt;/b&gt;!</translation>
+
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,16 +189,17 @@
         <translation>Cüzdan Şifrelendi</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 Şifreleme işlemini bitirmek için kapatılacak. Şunu unutmayın ki şampiyon galatasaray ve şifrelemek, litecoinlerinizin bilgisayarınıza bulaşan malware yazılımları tarafından çalınmasını tamamen engelleyemez.</translation>
-    </message>
-    <message>
+
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>ÖNEMLİ: Yeni oluşturduğunuz şifrelenmiş cüzdan dosyasını önceki yedeklenmiş cüzdan dosyasıyla değiştirmeniz gerekmektedir. Güvenlik sebeplerinden dolayı yeni, şifrelenmiş cüzdanınızı kullanmaya başlar başlamaz önceki şifrelenmemiş cüzdan yedekleri kullanılmaz hale gelecektir.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
         <translation>Cüzdan şifreleme başarısız oldu</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>Cüzdan şifreleme dahili bir hata nedeniyle başarısız oldu. Cüzdanınız şifrelenemedi.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -262,12 +272,9 @@
         <translation>&amp;Cüzdan Yedekleme</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>Gönderme adresleri</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>Alış adresleri</translation>
+        <source>Open &amp;URI...</source>
+        <translation>URI'yi aç</translation>
+
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -303,11 +310,21 @@
     </message>
     <message>
         <source>Garlicoin</source>
-        <translation>Garlicoin</translation>
+        <translation>Garlicoin
+</translation>
+
     </message>
     <message>
-        <source>Wallet</source>
-        <translation>Cüzdan</translation>
+        <source>&amp;Send</source>
+        <translation>Gönder</translation>
+    </message>
+    <message>
+        <source>&amp;Receive</source>
+        <translation>Al</translation>
+    </message>
+    <message>
+        <source>&amp;Show / Hide</source>
+        <translation>Göster / Gizle</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -354,6 +371,11 @@
         <translation>Bilgi</translation>
     </message>
     <message>
+        <source>&amp;Window</source>
+        <translation>Pencere</translation>
+    </message>
+    <message>
+
         <source>Date: %1
 </source>
         <translation>Tarih %1</translation>
@@ -394,6 +416,11 @@
         <translation>Tarih</translation>
     </message>
     <message>
+        <source>Confirmations</source>
+        <translation>Onaylamalar</translation>
+    </message>
+    <message>
+
         <source>Confirmed</source>
         <translation>Kabul edilen</translation>
     </message>
@@ -441,10 +468,6 @@
         <translation>Adres</translation>
     </message>
     <message>
-        <source>New receiving address</source>
-        <translation>Yeni alış adresi</translation>
-    </message>
-    <message>
         <source>New sending address</source>
         <translation>Yeni gönderim adresi</translation>
     </message>
@@ -459,10 +482,7 @@
     <message>
         <source>The entered address "%1" is not a valid Garlicoin address.</source>
         <translation>Girilen adres "%1" Garlicoin adresiyle eşleşmiyor.</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>Girilen adres "%1" adres defterinde zaten kayıtlı.</translation>
+
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -490,23 +510,8 @@
         <source>Command-line options</source>
         <translation>Komut satırı ayarları</translation>
     </message>
-    <message>
-        <source>Usage:</source>
-        <translation>Kullanım:</translation>
-    </message>
-    <message>
-        <source>command-line options</source>
-        <translation>komut satırı ayarları</translation>
-    </message>
-    <message>
-        <source>UI Options:</source>
-        <translation>UI Ayarları:</translation>
-    </message>
-    <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Bir dil seçin, örneğin "de_DE" (seçilen: Sistem dili)</translation>
-    </message>
-    </context>
+</context>
+
 <context>
     <name>Intro</name>
     <message>
@@ -526,6 +531,11 @@
 <context>
     <name>ModalOverlay</name>
     <message>
+        <source>Form</source>
+        <translation>Form</translation>
+    </message>
+    <message>
+
         <source>Number of blocks left</source>
         <translation>Kalan blokların sayısı</translation>
     </message>
@@ -616,15 +626,48 @@
         <translation>Konfigürasyon ayarları</translation>
     </message>
     <message>
+        <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
+        <translation>Konfigürasyon dosyası GUI ayarlarını geçersiz kılmak için gelişmiş kullanıcı ayarlarını değiştirir. Ek olarak, herhangi bir komut satırı seçeneği konfigürasyon dosyasını geçersiz kılar.</translation>
+    </message>
+    <message>
+
         <source>Error</source>
         <translation>Hata</translation>
     </message>
-    </context>
+    <message>
+        <source>The configuration file could not be opened.</source>
+        <translation>Konfigürasyon dosyası açılamadı.</translation>
+    </message>
+    <message>
+        <source>This change would require a client restart.</source>
+        <translation>Bu değişiklik istemcinin yeniden başlatılmasını gerektirir.</translation>
+    </message>
+    <message>
+        <source>The supplied proxy address is invalid.</source>
+        <translation>Sağlanan proxy adresi geçerli değil.</translation>
+    </message>
+</context>
 <context>
     <name>OverviewPage</name>
     <message>
+        <source>Form</source>
+        <translation>Form</translation>
+    </message>
+    <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garlicoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Gösterilen bilgi geçerli olmayabilir. Bağlantı tekrar sağlandıktan sonra cüzdanınız otomatik olarak senkronize olacaktır. Henüz senkronize olma işlemi tamamlanmadı.</translation>
+    </message>
+    <message>
+        <source>Watch-only:</source>
+        <translation>Sadece görüntülenebilir:</translation>
+    </message>
+    <message>
         <source>Available:</source>
         <translation>Kullanılabilir:</translation>
+    </message>
+    <message>
+        <source>Your current spendable balance</source>
+        <translation>Mevcut harcanabilir tutarınız</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -634,10 +677,44 @@
         <source>Total:</source>
         <translation>Toplam:</translation>
     </message>
-    </context>
+    <message>
+        <source>Your current total balance</source>
+        <translation>Toplam mevcut miktarınız</translation>
+    </message>
+    <message>
+        <source>Your current balance in watch-only addresses</source>
+        <translation>Sadece görüntülenebilir adreslerdeki mevcut miktarınız</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>Harcanabilir:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Yakın zamanda yapılmış işlemler</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Sadece görüntülenebilir adreslerdeki doğrulanmamış işlemler</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Sadece görüntülenebilir adreslerdeki mevcut toplam miktar</translation>
+    </message>
+</context>
+
 <context>
     <name>PaymentServer</name>
     <message>
+        <source>Payment request error</source>
+        <translation>Ödeme isteği hatası</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Ödeme isteği URL'si hatalı: %1</translation>
+    </message>
+    <message>
+
         <source>Invalid payment address %1</source>
         <translation>Hatalı ödeme adresi %1</translation>
     </message>
@@ -880,10 +957,7 @@
         <translation>Temizle</translation>
     </message>
     <message>
-        <source>Generate Bech32 address</source>
-        <translation>Bech32 adresi oluştur</translation>
-    </message>
-    <message>
+
         <source>Show</source>
         <translation>Göster</translation>
     </message>
@@ -942,6 +1016,11 @@
         <source>Message</source>
         <translation>Mesaj</translation>
     </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Cüzdan</translation>
+    </message>
+
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -1037,6 +1116,11 @@
         <translation>ya da</translation>
     </message>
     <message>
+        <source>Transaction fee</source>
+        <translation>Gönderim ücreti</translation>
+    </message>
+    <message>
+
         <source>Confirm send coins</source>
         <translation>Coin gönderimini onaylayın</translation>
     </message>
@@ -1299,6 +1383,9 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
+    <name>WalletController</name>
+    </context>
+<context>
     <name>WalletFrame</name>
     </context>
 <context>
@@ -1334,36 +1421,13 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Options:</source>
-        <translation>Ayarlar:</translation>
-    </message>
-    <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>JSON-RPC komutları ile komut satırını onaylayın</translation>
-    </message>
-    <message>
         <source>Garlicoin Core</source>
         <translation>Garlicoin Çekirdeği</translation>
-    </message>
-    <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; can be:</translation>
-    </message>
-    <message>
-        <source>Block creation options:</source>
-        <translation>Blok oluşturma ayarları:</translation>
-    </message>
-    <message>
-        <source>Connection options:</source>
-        <translation>Bağlantı ayarları:</translation>
+
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
         <translation>Copyright (C) %i-%i</translation>
-    </message>
-    <message>
-        <source>Debugging/Testing options:</source>
-        <translation>Hata giderme/test ayarları:</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
@@ -1378,14 +1442,6 @@
         <translation>Ban listesi yükleniyor...</translation>
     </message>
     <message>
-        <source>Print this help message and exit</source>
-        <translation>Bu yardım mesajını yazdır ve çıkış yap</translation>
-    </message>
-    <message>
-        <source>Print version and exit</source>
-        <translation>Versiyonu yazdır ve çıkış yap</translation>
-    </message>
-    <message>
         <source>Verifying blocks...</source>
         <translation>Bloklar Onaylanıyor...</translation>
     </message>
@@ -1394,8 +1450,9 @@
         <translation>%s tamamlanması için cüzdanın yeniden başlatılması gerekiyor</translation>
     </message>
     <message>
-        <source>Wallet options:</source>
-        <translation>Cüzdan Ayarları</translation>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Veritabanı okuma hatası, kapatıldı.</translation>
+
     </message>
     <message>
         <source>(default: %u)</source>
@@ -1414,8 +1471,9 @@
         <translation>Hatalı -onion adresi ya da host adı: '%s'</translation>
     </message>
     <message>
-        <source>RPC server options:</source>
-        <translation>RPC sunucu ayarları</translation>
+        <source>This is experimental software.</source>
+        <translation>Bu deneysel bir yazılımdır.</translation>
+
     </message>
     <message>
         <source>This is experimental software.</source>
@@ -1430,10 +1488,7 @@
         <translation>İşlem çok büyük</translation>
     </message>
     <message>
-        <source>Username for JSON-RPC connections</source>
-        <translation>JSON-RPC bağlantıları için kullanıcı adı</translation>
-    </message>
-    <message>
+
         <source>Verifying wallet(s)...</source>
         <translation>Cüzdan(lar) onaylanıyor...</translation>
     </message>
@@ -1442,30 +1497,7 @@
         <translation>Uyarı</translation>
     </message>
     <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC bağlantıları için şifre</translation>
-    </message>
-    <message>
-        <source>(default: %s)</source>
-        <translation>(varsayılan: %s)</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: %s)</source>
-        <translation>Yapılandırma dosyasını belirle (varsayılan: %s)</translation>
-    </message>
-    <message>
-        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Milisaniyelik zaman aşımına uğramış bağlantıyı belirle (minimum: 1, varsayılan: %d)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: %s)</source>
-        <translation>Pid dosyasını belirle (Varsayılan: %s)</translation>
-    </message>
-    <message>
-        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>İşlem gönderiminde onaylanmamış değişimi öde (Varsayılan: %u)</translation>
-    </message>
-    <message>
+
         <source>Starting network threads...</source>
         <translation>Bağlantı konuları başlıyor</translation>
     </message>
@@ -1480,10 +1512,6 @@
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Bir işlem göndermeniz durumunda işlem ücretiniz budur</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Sorunlu emsalleri koparma eşiği (Varsayılan: %u)</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>

@@ -246,10 +246,6 @@
         <translation>&amp;Oorsig</translation>
     </message>
     <message>
-        <source>Node</source>
-        <translation>Node</translation>
-    </message>
-    <message>
         <source>Show general overview of wallet</source>
         <translation>Vertoon 'n algemene oorsig van die beursie</translation>
     </message>
@@ -306,14 +302,6 @@
         <translation>&amp;Verander Wagwoord</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Versending adresse...</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Ontvanger adresse</translation>
-    </message>
-    <message>
         <source>Open &amp;URI...</source>
         <translation>Oop &amp; URI...</translation>
     </message>
@@ -354,12 +342,13 @@
         <translation>Maak ontfouting en diagnostiese konsole oop</translation>
     </message>
     <message>
-        <source>Garlicoin</source>
-        <translation>Garlicoin</translation>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Verifieer boodskap...</translation>
     </message>
     <message>
-        <source>Wallet</source>
-        <translation>Beursie</translation>
+        <source>Garlicoin</source>
+        <translation>Garlicoin</translation>
+
     </message>
     <message>
         <source>&amp;Send</source>
@@ -422,6 +411,11 @@
         <translation>Skep 'n garlicoin: URI of betalingsversoek</translation>
     </message>
     <message>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Opdrag lyn opsies</translation>
+
+    </message>
+    <message>
         <source>Indexing blocks on disk...</source>
         <translation>Blokke op skyf word geïndekseer...</translation>
     </message>
@@ -456,6 +450,10 @@
     <message>
         <source>Up to date</source>
         <translation>Op datum</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Venster</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -686,10 +684,6 @@
         <translation>&amp;Adres</translation>
     </message>
     <message>
-        <source>New receiving address</source>
-        <translation>Nuwe ontvang adres</translation>
-    </message>
-    <message>
         <source>New sending address</source>
         <translation>Nuwe stuur adres</translation>
     </message>
@@ -704,10 +698,7 @@
     <message>
         <source>The entered address "%1" is not a valid Garlicoin address.</source>
         <translation>Die ingevoerde adres "%1" is nie 'n geldige Garlicoin adres nie.</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>Die ingevoerde adres "%1" is reeds in die adres boek.</translation>
+
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -758,42 +749,6 @@
     <message>
         <source>Command-line options</source>
         <translation>Opdrag lyn opsies</translation>
-    </message>
-    <message>
-        <source>Usage:</source>
-        <translation>Gebruik:</translation>
-    </message>
-    <message>
-        <source>command-line options</source>
-        <translation>opdrag lyn opsies</translation>
-    </message>
-    <message>
-        <source>UI Options:</source>
-        <translation>Gebruikerkoppelvlakopsies:</translation>
-    </message>
-    <message>
-        <source>Choose data directory on startup (default: %u)</source>
-        <translation>Kies data gids by aanvang (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Stel taal, byvoorbeeld "de_DE" (standaard: stelsel lokaal)</translation>
-    </message>
-    <message>
-        <source>Start minimized</source>
-        <translation>Begin geminimeer</translation>
-    </message>
-    <message>
-        <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Stel SSL-wortelsertifikate vir betaling versoek (standaard: -stelsel-)</translation>
-    </message>
-    <message>
-        <source>Show splash screen on startup (default: %u)</source>
-        <translation>Wys spatskerm tydens opstart (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Reset all settings changed in the GUI</source>
-        <translation>Alle instellings wat in die grafiese gebruikerkoppelvlak gewysig is, terugstel</translation>
     </message>
 </context>
 <context>
@@ -869,11 +824,7 @@
         <source>Hide</source>
         <translation>Versteek</translation>
     </message>
-    <message>
-        <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Onbekend. Besig Met Sinchroniseer Van Hoofde (%1)...</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -920,16 +871,8 @@
         <translation>Grootte van &amp;databasis kas</translation>
     </message>
     <message>
-        <source>MB</source>
-        <translation>MG</translation>
-    </message>
-    <message>
         <source>Number of script &amp;verification threads</source>
         <translation>Aantal skrip &amp;verifikasie drade</translation>
-    </message>
-    <message>
-        <source>Active command-line options that override above options:</source>
-        <translation>Aktiewe opdrag lyn opsies wat die boonste opsies ignoreer:</translation>
     </message>
     <message>
         <source>Open the %1 configuration file from the working directory.</source>
@@ -1241,6 +1184,10 @@
 </context>
 <context>
     <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Stoor beeld</translation>
+    </message>
     </context>
 <context>
     <name>RPCConsole</name>
@@ -1400,6 +1347,10 @@
         <translation>&amp;Boodslap:</translation>
     </message>
     <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Vee alle velde op die vorm skoon</translation>
+    </message>
+    <message>
         <source>Clear</source>
         <translation>Skoonmaak</translation>
     </message>
@@ -1435,8 +1386,16 @@
         <translation>QR Kode</translation>
     </message>
     <message>
+        <source>Copy &amp;URI</source>
+        <translation>Kopieer &amp;URI</translation>
+    </message>
+    <message>
         <source>Copy &amp;Address</source>
         <translation>Kopieer &amp;Address</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Stoor beeld</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
@@ -1466,7 +1425,19 @@
         <source>Message</source>
         <translation>Boodskap</translation>
     </message>
-    </context>
+    <message>
+        <source>Wallet</source>
+        <translation>Beursie</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>Gevolglike URI te lank, probeer teks verkort vir etiket/boodskap</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Fout met enkodering van URI na QR kode</translation>
+    </message>
+</context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
@@ -1553,6 +1524,20 @@
         <translation>Kies...</translation>
     </message>
     <message>
+        <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
+        <translation>Die verstekfooi kan veroorsaak dat 'n transaksie gestuur word wat
+etlike ure of dae (of nooit) sal neem om te bevestig. Oorweeg om 
+'n fooi met die hand te kies, of wag tot jy die hele ketting bevestig het.</translation>
+    </message>
+    <message>
+        <source>Warning: Fee estimation is currently not possible.</source>
+        <translation>Waarskuwing: fooiskatting is tans onbeskikbaar</translation>
+    </message>
+    <message>
+        <source>collapse fee-settings</source>
+        <translation>Vou fooi-nistellings in</translation>
+    </message>
+    <message>
         <source>per kilobyte</source>
         <translation>per kilogreep</translation>
     </message>
@@ -1569,20 +1554,50 @@
         <translation>Aangepaste:</translation>
     </message>
     <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation>(Slimfooi nog nie opgestel nie. Dit neem gewoonlik 'n paar blokke...)</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Stuur aan veelvuldige ontvangers tegelyk</translation>
+    </message>
+    <message>
         <source>Add &amp;Recipient</source>
         <translation>Voeg by &amp;Ontvanger</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Vee alle velde op die vorm skoon</translation>
     </message>
     <message>
         <source>Dust:</source>
         <translation>Stof:</translation>
     </message>
     <message>
+        <source>Confirmation time target:</source>
+        <translation>Bevestigingstyd teiken:</translation>
+    </message>
+    <message>
+        <source>Enable Replace-By-Fee</source>
+        <translation>Bemoontlik vervang-deur-fooi</translation>
+    </message>
+    <message>
+        <source>With Replace-By-Fee (BIP-125) you can increase a transaction's fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</source>
+        <translation>Met Vervang-Met-Fooi (BIP-125) kan jy 'n transaskiefooi verhoog nadat dit gestuur is.
+Daarsonder mag 'n hoër fooi dalk aanbeveel word om te kompenseer vir 'n verhoogde
+transaksievertragingsrisiko.</translation>
+    </message>
+    <message>
         <source>Clear &amp;All</source>
-        <translation>Maak skoon &amp;Alles</translation>
+        <translation>Vee &amp;Alles skoon</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Balans:</translation>
+        <translation>Saldo:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Bevestig stuuraksie</translation>
     </message>
     <message>
         <source>S&amp;end</source>
@@ -1625,8 +1640,74 @@
         <translation>%1 tot %2</translation>
     </message>
     <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Is u seker u wil verstuur?</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>of</translation>
+    </message>
+    <message>
+        <source>You can increase the fee later (signals Replace-By-Fee, BIP-125).</source>
+        <translation>U kan die fooi later verhoog (sein Vervang-met-Fooi, BIP-125)</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Transaksie fooi</translation>
+    </message>
+    <message>
+        <source>Not signalling Replace-By-Fee, BIP-125.</source>
+        <translation>Sein nie Vervang-Met-Fooi nie, BIP-25</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Bevestig versending van munte</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation>Die ontvangeradres is ongeldig. Kyk asseblief weer mooi.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Bedrag moet groter as nul wees</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>Die bedrag oorskry jou saldo</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>Die somtotaal oorskry jou saldo as die %1 transaksiefooi ingereken word</translation>
+    </message>
+    <message>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>Duplikaatadres: adresse behoort slegs eenkeer gebruik te word</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>Transaksieopstelling het gefaal</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected with the following reason: %1</source>
+        <translation>Die transaksie is afgekeur met die volgende rede: %1</translation>
+    </message>
+    <message>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>'n Fooi hoër as %1 word as buitensporig beskou</translation>
+    </message>
+    <message>
         <source>Payment request expired.</source>
         <translation>Betalings versoek verstryk.</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Garlicoin address</source>
+        <translation>Waarskuwing: Ongeldige Garlicoinadres</translation>
+    </message>
+    <message>
+        <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
+        <translation>Die adres wat u gekies het vir verandering is nie deel van hierdie
+beursie nie. Enige of alle fondse mag dalk daarheen gestuur word.
+Is u seker?</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1644,12 +1725,56 @@
         <translation>&amp;Etiket:</translation>
     </message>
     <message>
+        <source>Choose previously used address</source>
+        <translation>Kies voorheen gebruikte adres</translation>
+    </message>
+    <message>
+        <source>This is a normal payment.</source>
+        <translation>Hierdie is 'n gewone betaling</translation>
+    </message>
+    <message>
+        <source>The Garlicoin address to send the payment to</source>
+        <translation>Die Garlicoinadres waarheen die betaling gestuur word</translation>
+    </message>
+    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
+        <source>Paste address from clipboard</source>
+        <translation>Plak adres van aanknipbord af</translation>
+    </message>
+    <message>
+        <source>Remove this entry</source>
+        <translation>Verwyder hierdie inskrywing</translation>
+    </message>
+    <message>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less garlicoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>De fooi word afgetrek van die gestuurde bedrag.
+Die ontvanger sal minder ontvang as wat u in die 
+bedrag opgee. As daar meer as een ontvanger is,
+word die fooi eweredig verdeel.</translation>
+    </message>
+    <message>
+        <source>S&amp;ubtract fee from amount</source>
+        <translation>Bedrag &amp;Sonder fooi </translation>
+    </message>
+    <message>
+        <source>Use available balance</source>
+        <translation>Gebruik beskikbare saldo</translation>
+    </message>
+    <message>
         <source>Message:</source>
         <translation>Boodskap:</translation>
+    </message>
+    <message>
+        <source>This is an unauthenticated payment request.</source>
+        <translation>Hierdie is 'n ongemagtigde uitbetalingsversoek</translation>
+    </message>
+    <message>
+        <source>This is an authenticated payment request.</source>
+        <translation>Hierdie is 'n gemagtigde uitbetalingsversoek
+</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1673,8 +1798,16 @@
         <translation>&amp;Teken Boodskap</translation>
     </message>
     <message>
+        <source>Choose previously used address</source>
+        <translation>Kies voorheen gebruikte adres</translation>
+    </message>
+    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Plak adres van aanknipbord af</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -1682,7 +1815,7 @@
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Maak skoon &amp;Alles</translation>
+        <translation>Vee &amp;Alles skoon</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
@@ -1879,6 +2012,9 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
+    <name>WalletController</name>
+    </context>
+<context>
     <name>WalletFrame</name>
     </context>
 <context>
@@ -1910,16 +2046,17 @@
         <translation>Garlicoin Kern</translation>
     </message>
     <message>
+        <source>Error loading %s</source>
+        <translation>Fout met laai %s</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>Besig met invoer...</translation>
+    </message>
+    <message>
+
         <source>Information</source>
         <translation>Inligting</translation>
-    </message>
-    <message>
-        <source>Node relay options:</source>
-        <translation>Node aflos opsies:</translation>
-    </message>
-    <message>
-        <source>RPC server options:</source>
-        <translation>RPC bediener opsies:</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -1946,56 +2083,8 @@
         <translation>Waarskuwing</translation>
     </message>
     <message>
-        <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>Moenie transaksies vir langer as &lt;n&gt; ure in die geheuepoel hou nie (verstek: %u)</translation>
-    </message>
-    <message>
         <source>%s is set very high!</source>
         <translation>%s is baie hoog gestel!</translation>
-    </message>
-    <message>
-        <source>(default: %s)</source>
-        <translation>(standaard: %s)</translation>
-    </message>
-    <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Luister vir JSON-RPC konneksies op &lt;port&gt; (verstek: %u of testnet: %u)</translation>
-    </message>
-    <message>
-        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Luister vir konneksies op &lt;port&gt; (verstek: %u of testnet: %u)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Handhaaf hoogstens &lt;n&gt; verbindings na portuurs (verstek: %u)</translation>
-    </message>
-    <message>
-        <source>Make the wallet broadcast transactions</source>
-        <translation>Maak dat die beursie transaksies uitsaai</translation>
-    </message>
-    <message>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksimum per-konneksie ontvang buffer, &lt;n&gt;*1000 grepe (verstek: %u)</translation>
-    </message>
-    <message>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksimum per-konneksie stuur buffer, &lt;n&gt;*1000 grepe (verstek: %u)</translation>
-    </message>
-    <message>
-        <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Voeg ontfout-uitset met tydstempel by (verstek: %u)</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: %s)</source>
-        <translation>Spesifiseer konfigurasie lêer (verstek: %s)</translation>
-    </message>
-    <message>
-        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Spesifiseer konneksie timeout in millisekondes (minimum: 1, verstek: %d)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: %s)</source>
-        <translation>Spesifiseer pid lêer (verstek: %s)</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
@@ -2008,10 +2097,6 @@
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Dit is die transaksie fooi wat u sal betaal as u 'n transaksie stuur.</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Drumpel vir die ontkoppel van misdadige portuurs (verstek: %u)</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
@@ -2027,7 +2112,7 @@
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Onbekend netwerk gespesifiseer in -onlynet: '%s'</translation>
+        <translation>Onbekende netwerk gespesifiseer in -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

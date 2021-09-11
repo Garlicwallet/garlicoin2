@@ -30,6 +30,10 @@
         <translation>Usuń zaznaczony adres z listy</translation>
     </message>
     <message>
+        <source>Enter address or label to search</source>
+        <translation>Wpisz adres lub etykiete zeby wyszukac</translation>
+    </message>
+    <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Eksportuj dane z aktywnej karty do pliku</translation>
     </message>
@@ -132,6 +136,10 @@
         <translation>Wprowadź ponownie hasło</translation>
     </message>
     <message>
+        <source>Show password</source>
+        <translation>Pokaz haslo</translation>
+    </message>
+    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Wpisz nowe hasło do portfela. Proszę użyć hasła składającego się z 10 lub więcej różnych znaków albo ośmiu lub więcej słów. </translation>
     </message>
@@ -168,8 +176,8 @@
         <translation>Potwierdź zaszyfrowanie portfela.</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Uwaga: Jeśli zaszyfrujesz portfel i utracisz do niego hasło, stracisz wszystkie swoje Litecoiny. </translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GARLICOINS&lt;/b&gt;!</source>
+        <translation>Uwaga: Jeśli zaszyfrujesz portfel i utracisz do niego hasło, stracisz wszystkie swoje Garlicoiny. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -178,10 +186,6 @@
     <message>
         <source>Wallet encrypted</source>
         <translation>Portfel zaszyfrowany</translation>
-    </message>
-    <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 zamknie się teraz aby zakończyć proces szyfrowania. Pamiętaj że zaszyfrowanie portfela nie może w pełni zabezpieczyć Twoich litecoinów od próby kradzieży lub poprzez zainfekowanie Twojego komputera.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -246,10 +250,6 @@
         <translation>&amp;Przegląd</translation>
     </message>
     <message>
-        <source>Node</source>
-        <translation>Węzeł</translation>
-    </message>
-    <message>
         <source>Show general overview of wallet</source>
         <translation>Pokaż podsumowanie portfela</translation>
     </message>
@@ -306,14 +306,6 @@
         <translation>&amp;Zmień Hasło...</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Wysyłanie adresów...</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Otrzymywanie adresów...</translation>
-    </message>
-    <message>
         <source>Open &amp;URI...</source>
         <translation>Otwórz &amp;URl...</translation>
     </message>
@@ -364,10 +356,6 @@
     <message>
         <source>Garlicoin</source>
         <translation>Garlicoin</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Portfel</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -589,35 +577,7 @@
     </context>
 <context>
     <name>HelpMessageDialog</name>
-    <message>
-        <source>command-line options</source>
-        <translation>Opcje wierszu poleceń</translation>
-    </message>
-    <message>
-        <source>UI Options:</source>
-        <translation>UI Opcje:</translation>
-    </message>
-    <message>
-        <source>Choose data directory on startup (default: %u)</source>
-        <translation>Wybierz katalog danych podczas uruchomienia (domyślna: %u)</translation>
-    </message>
-    <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Wybierz język, na przykład "de_DE" (domyślny: system lokalny)</translation>
-    </message>
-    <message>
-        <source>Start minimized</source>
-        <translation>Uruchom zminimalizowany</translation>
-    </message>
-    <message>
-        <source>Show splash screen on startup (default: %u)</source>
-        <translation>Pokaż ekran powitalny podczas startu (domyślny: %u)</translation>
-    </message>
-    <message>
-        <source>Reset all settings changed in the GUI</source>
-        <translation>Przywróć wszystkie ustawienia zmienione w GUI.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>Intro</name>
     <message>
@@ -692,8 +652,8 @@
         <translation>Niedawne transakcje mogą być jeszcze nie widoczne i z tego powodu saldo Twojego portfela może być nieprawidłowe. Te informacje zostaną poprawione kiedy Twój portfel skończy się synchronizować z siecią Garlicoin, w sposób opisany poniżej. </translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Próby przesłania Litecoinów które nie zostały jeszcze wyświetlone w transakcjach nie zostaną zaakceptowane przez sieć.</translation>
+        <source>Attempting to spend garlicoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Próby przesłania Garlicoinów które nie zostały jeszcze wyświetlone w transakcjach nie zostaną zaakceptowane przez sieć.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -727,11 +687,7 @@
         <source>Hide</source>
         <translation>Ukryj</translation>
     </message>
-    <message>
-        <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Nieznany. Synchronizowanie nagłówków (%1)...</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -772,10 +728,6 @@
     <message>
         <source>&amp;Start %1 on system login</source>
         <translation>&amp;Zacznij %1 podczas logowania do systemu</translation>
-    </message>
-    <message>
-        <source>MB</source>
-        <translation>MB</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
@@ -1233,6 +1185,10 @@
         <translation>Wiadomość</translation>
     </message>
     <message>
+        <source>Wallet</source>
+        <translation>Portfel</translation>
+    </message>
+    <message>
         <source>Error encoding URI into QR Code.</source>
         <translation>Błąd podczas zmiany URI w QR kod.</translation>
     </message>
@@ -1409,14 +1365,6 @@
     <message>
         <source>Are you sure you want to send?</source>
         <translation>Czy na pewno jesteś pewien że chcesz wysłać?</translation>
-    </message>
-    <message>
-        <source>added as transaction fee</source>
-        <translation>Dodane jako koszt transakcji.</translation>
-    </message>
-    <message>
-        <source>Total Amount %1</source>
-        <translation>Wartość w sumie %1</translation>
     </message>
     <message>
         <source>or</source>
@@ -1665,6 +1613,9 @@
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
+    <name>WalletController</name>
+    </context>
+<context>
     <name>WalletFrame</name>
     </context>
 <context>
@@ -1729,3 +1680,4 @@
     </message>
 </context>
 </TS>
+

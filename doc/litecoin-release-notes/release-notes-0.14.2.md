@@ -53,7 +53,17 @@ Testnet3 has been deprecated and replaced with Testnet4. The server port has bee
 the same (19332).
 
 Testnet faucets can be located at:
-- http://testnet.litecointools.com
+
+Thanks to everyone who directly contributed to this release:
+
+- [The Bitcoin Core Developers](/doc/release-notes)
+- Adrian Gallagher
+- Charlie Lee
+- Loshan T
+- Shaolin Fry
+- Xinxi Wang
+=======
+- http://testnet.garlicointools.com
 - http://testnet.thrasher.io
 
 Developers who require the new testnet blockchain paramaters can find them [here](https://github.com/GarlicoinOrg/Garlicoin/blob/master/src/chainparams.cpp#L220).

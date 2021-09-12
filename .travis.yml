@@ -27,8 +27,7 @@
 
 dist: xenial
 os: linux
-language: generic
-if: branch = master
+language: minimal
 cache:
   ccache: true
   directories:

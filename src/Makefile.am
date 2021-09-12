@@ -373,7 +373,7 @@ crypto_libbitcoin_crypto_base_a_SOURCES = \
   crypto/Lyra2RE/sph_keccak.h \
   crypto/Lyra2RE/sph_cubehash.h \
   crypto/Lyra2RE/sph_types.h \
-  crypto/Lyra2RE/sph_bmw.h
+  crypto/Lyra2RE/sph_bmw.h \
   crypto/siphash.cpp \
   crypto/siphash.h
 

@@ -21,7 +21,7 @@ Installing Windows Subsystem for Linux
 With Windows 10, Microsoft has released a new feature named the [Windows
 Subsystem for Linux (WSL)](https://msdn.microsoft.com/commandline/wsl/about). This
 feature allows you to run a bash shell directly on Windows in an Ubuntu-based
-environment. Within this environment you can cross compile for Wigit ndows without
+environment. Within this environment you can cross compile for Windows without
 the need for a separate Linux VM or server. Note that while WSL can be installed with
 other Linux variants, such as OpenSUSE, the following instructions have only been
 tested with Ubuntu.
